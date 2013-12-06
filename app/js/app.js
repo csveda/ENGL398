@@ -73,8 +73,9 @@ var WorkCtrl = function($scope) {
 			'link': 'http://www.everykey.com',
 			'points': [
 				'Develop browser plugins and mobile applications to interface with hardware via Bluetooth',
-				'Involved in product design decision making',
-				'Perform market research and analyz results'
+				'Involved in product design of Bluetooth wristband',
+				'Perform market research and analyze results',
+				'Collaborate remotely with electrical engineers and industrial design firm in China'
 			]
 		},{
 			'company': 'American Greetings',
