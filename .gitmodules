@@ -1,0 +1,3 @@
+[submodule "vendor/oriDomi"]
+	path = vendor/oriDomi
+	url = https://github.com/dmotz/oriDomi.git

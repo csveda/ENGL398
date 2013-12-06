@@ -1,0 +1,17 @@
+<div class="text">
+	<div class="jobItem" ng-repeat="job in jobs">
+		<h3>{{job.company}}<small><span class="pull-right">{{job.role}}</span></small></h3>
+		{{job.location}}  <span class="pull-right"><em>{{job.date}}</em></span><br>
+		<hr>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="{{job.link}}"><img src="{{job.image}}"></a>
+			</div>
+			<div class="col-md-9">
+				<ul>
+					<li ng-repeat="point in job.points">{{point}}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

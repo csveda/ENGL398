@@ -1,0 +1,129 @@
+html, body {
+	height: 100%;
+	background-color: #111;
+}
+
+.container-fluid {
+	margin-top: 32px;
+	margin-left: 232px;
+	position: absolute;
+}
+
+.mainNav {
+	display: inline-block;
+	background-color: #222;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	text-align: right;
+}
+
+.mainNav ul {
+	list-style: none;	
+	padding: 0;
+	margin-right: 16px;
+	line-height: 24pt;
+}
+
+a:link {
+	color: #fc8;
+}
+
+a:visited {
+	color: #a74;
+}
+
+a:hover {
+	color: #fc8;
+}
+
+.mainNav a:link {
+	color: #fff;
+}
+
+.mainNav a:visited {
+	color: #fff;
+}
+
+.mainNav a:hover {
+	color: #8cf;
+	text-decoration: none;
+}
+
+.mainNav hr {
+	margin-right: 8px;
+	margin-left: 8px;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #111;
+}
+
+.navTitle {
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 32px;
+	margin-right: 16px;
+}
+
+h3 {
+	color: #8cf;
+}
+
+.text {
+	color: #bbb;
+}
+
+.contact {
+	margin-right: 16px;
+}
+
+.about {
+	max-width: 600px;
+}
+
+.text > .glyphicon {
+	font-size: 24px;
+}
+
+.jobItem {
+	display: block;
+	width: 700px;
+	position: relative;
+	z-index: 0;
+	margin-bottom: 80px;
+}
+
+.jobItem hr {
+	margin-right: 8px;
+	margin-left: 8px;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #000;
+}
+
+.jobItem ul {
+	line-height: 22pt;
+}
+
+.jobItem a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 180px;
+	height: 150px;
+	background: rgba(0, 0, 0, 0.75);
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-box-shadow: inset 0 0 0 1px #000,inset 0 -1px 0 rgba(0,0,0,0.2),inset 0 2px 0 rgba(255,255,255,0.2),inset 0 0 0 2px rgba(255,255,255,0.05),0 1px 0 rgba(0,0,0,0.15);
+}
+
+.jobItem a:hover {
+	/*width: 360px;*/
+	background: rgba(0, 0, 0, 0);
+}
+
+.jobItem img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: -1;
+}
